@@ -1,24 +1,20 @@
-# client-vpn
+## Local setup
 
-## Project setup
-```
-npm install
-```
+- Git Clone
+  - git clone https://github.com/shahzadthathal/client-vpn.git
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Server api config
+    - Update  /src/config.js with server api url
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Install dependencies
+  - cd client-vpn
+  - npm install
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Run
+  - npm run serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Info
+  - Register
+  - Login
+  - Connect VPN
+  - View Login Logger
